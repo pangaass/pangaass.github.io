@@ -1,5 +1,3 @@
-# Yunhe Pang
-
 **PhD Candidate in Computer Science and Technology**  
 Sun Yat-sen University (SYSU)  
 Research Interests: Large Language Models, Data Mining  
