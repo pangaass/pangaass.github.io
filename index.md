@@ -1,7 +1,7 @@
 **PhD Candidate in Computer Science and Technology**  
 Sun Yat-sen University (SYSU)  
 Research Interests: Large Language Models, Data Mining  
-Email: [pangyh8@mail2.sysu.edu.cn] | GitHub: [https://github.com/pangaass] | Google Scholar: []  
+Email: [pangyh8@mail2.sysu.edu.cn] | GitHub: [https://github.com/pangaass] | Google Scholar: [https://scholar.google.com/citations?user=doF4h50AAAAJ&hl=zh-CN&oi=ao]  
 
 ---
 
