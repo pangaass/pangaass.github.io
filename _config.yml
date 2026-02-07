@@ -1,1 +1,19 @@
+title: Yunhe Pang | 庞运河
+description: PhD Candidate @ Sun Yat-sen University | LLMs & Data Mining
 theme: minima
+url: "https://pangaass.github.io"
+
+# Minima theme settings
+minima:
+  skin: auto
+
+# Social links
+author:
+  name: Yunhe Pang
+  email: pangyh8@mail2.sysu.edu.cn
+
+header_pages:
+  - index.md
+
+plugins:
+  - jekyll-seo-tag
