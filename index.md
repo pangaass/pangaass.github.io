@@ -297,11 +297,17 @@ body {
 <div class="section">
 <h2>🧑‍🔬 About Me</h2>
 
-I am a first-year Ph.D. student at **Sun Yat-sen University (SYSU)**, advised by Prof. [Yanghui Rao](https://scholar.google.com/citations?user=PLACEHOLDER). My research focuses on **Large Language Models (LLMs)** and **Data Mining**, with applications in academic knowledge graphs, sentiment analysis, and anomaly detection.
+<p>
+I am a first-year Ph.D. student at <strong>Sun Yat-sen University (SYSU)</strong>, advised by Prof. <a href="https://scholar.google.com/citations?user=PLACEHOLDER" target="_blank">Yanghui Rao</a>. My research focuses on <strong>Large Language Models (LLMs)</strong> and <strong>Data Mining</strong>, with applications in academic knowledge graphs, sentiment analysis, and anomaly detection.
+</p>
 
-Currently, I am interning at **[Zhipu AI](https://www.zhipuai.cn/)**, working on cutting-edge AI technologies related to large language models.
+<p>
+Currently, I am interning at <strong><a href="https://www.zhipuai.cn/" target="_blank">Zhipu AI</a></strong>, working on cutting-edge AI technologies related to large language models.
+</p>
 
-Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's degree (2016–2020) in **Computer Science and Technology** from **North China Electric Power University (NCEPU)**.
+<p>
+Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's degree (2016–2020) in <strong>Computer Science and Technology</strong> from <strong>North China Electric Power University (NCEPU)</strong>.
+</p>
 
 </div>
 
@@ -440,7 +446,7 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
 <div class="section">
 <h2>🤝 Academic Services</h2>
 
-Reviewer for top-tier AI/NLP conferences and journals. *(Details to be updated)*
+<p>Reviewer for top-tier AI/NLP conferences and journals. <em>(Details to be updated)</em></p>
 
 </div>
 
