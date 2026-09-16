@@ -1,5 +1,5 @@
 title: Yunhe Pang | 庞运河
-description: PhD Candidate @ Sun Yat-sen University | LLMs & Data Mining
+description: Ph.D. Student @ Sun Yat-sen University | LLMs & Academic Data Mining
 theme: minima
 url: "https://pangaass.github.io"
 
@@ -7,10 +7,10 @@ url: "https://pangaass.github.io"
 minima:
   skin: auto
 
-# Social links
-author:
-  name: Yunhe Pang
-  email: pangyh8@mail2.sysu.edu.cn
+# Footer / social links (GitHub Pages ships Minima 2.5, which reads these as plain strings)
+author: Yunhe Pang
+email: pangyh8@mail2.sysu.edu.cn
+github_username: pangaass
 
 header_pages:
   - index.md

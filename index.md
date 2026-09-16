@@ -181,6 +181,30 @@ body {
   margin-right: 6px;
 }
 
+.pub-links {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pub-links a {
+  display: inline-block;
+  padding: 1px 9px;
+  border: 1px solid #2c5f2d;
+  border-radius: 4px;
+  color: #2c5f2d;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.pub-links a:hover {
+  background: #2c5f2d;
+  color: #fff;
+}
+
 .pub-year-header {
   font-size: 1.2em;
   font-weight: 700;
@@ -201,6 +225,8 @@ body {
 
 .edu-year {
   min-width: 110px;
+  flex-shrink: 0;
+  white-space: nowrap;
   color: #888;
   font-family: monospace;
   font-size: 0.95em;
@@ -228,6 +254,8 @@ body {
 
 .exp-year {
   min-width: 110px;
+  flex-shrink: 0;
+  white-space: nowrap;
   color: #888;
   font-family: monospace;
   font-size: 0.95em;
@@ -298,11 +326,11 @@ body {
 <h2>🧑‍🔬 About Me</h2>
 
 <p>
-I am a first-year Ph.D. student at <strong>Sun Yat-sen University (SYSU)</strong>, advised by Prof. <a href="https://scholar.google.com/citations?user=PLACEHOLDER" target="_blank">Yanghui Rao</a>. My research focuses on <strong>Large Language Models (LLMs)</strong> and <strong>Data Mining</strong>, with applications in academic knowledge graphs, sentiment analysis, and anomaly detection.
+I am a Ph.D. student (since Fall 2024) at the School of Computer Science and Engineering, <strong>Sun Yat-sen University (SYSU)</strong>, advised by Prof. <a href="https://cse.sysu.edu.cn/teacher/RaoYanghui" target="_blank">Yanghui Rao</a>. My research focuses on <strong>Large Language Models (LLMs)</strong> and <strong>Academic Data Mining</strong>: building reliable data mining systems for scholarly graphs, including author name disambiguation, anomaly detection, and LLM-enhanced scholarly information extraction and reasoning. I have also worked on sentiment analysis and emotion recognition.
 </p>
 
 <p>
-Currently, I am interning at <strong><a href="https://www.zhipuai.cn/" target="_blank">Zhipu AI</a></strong>, working on cutting-edge AI technologies related to large language models.
+Since 2023, I have been a research intern at <strong><a href="https://www.zhipuai.cn/" target="_blank">Zhipu AI</a></strong>, working on large language models and academic knowledge graphs (e.g., <a href="https://www.aminer.cn/" target="_blank">AMiner</a>). Our recent work on cross-source correction for author name disambiguation (CrossND, KDD 2026) has been deployed to support large-scale paper-author assignment correction in practice.
 </p>
 
 <p>
@@ -317,20 +345,32 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
 
 <ul class="news-list">
   <li>
-    <span class="news-date">2025.05</span>
-    <span><span class="news-badge badge-new">New</span> One paper accepted by <strong>KDD 2025</strong> — GuARD for anomaly detection!</span>
+    <span class="news-date">2026.05</span>
+    <span><span class="news-badge badge-new">New</span> One paper accepted by <strong>KDD 2026</strong> (Applied Data Science Track) — CrossND for cross-source author name disambiguation correction!</span>
+  </li>
+  <li>
+    <span class="news-date">2026.04</span>
+    <span><span class="news-badge badge-new">New</span> Two papers accepted by <strong>ACL 2026</strong> (Main) — HopWeaver for multi-hop question synthesis and RPC-Bench for research paper comprehension!</span>
+  </li>
+  <li>
+    <span class="news-date">2025.08</span>
+    <span><span class="news-badge badge-pub">Pub</span> One paper accepted by <strong>EMNLP 2025</strong> (Main) — CARE for disagreement detection!</span>
   </li>
   <li>
     <span class="news-date">2025.05</span>
-    <span><span class="news-badge badge-new">New</span> One paper accepted by <strong>ACL 2025</strong> — CoE for emotion recognition!</span>
+    <span><span class="news-badge badge-pub">Pub</span> One paper accepted by <strong>KDD 2025</strong> — GuARD for anomaly detection!</span>
   </li>
   <li>
-    <span class="news-date">2024.05</span>
-    <span><span class="news-badge badge-pub">Pub</span> One paper accepted by <strong>KDD 2024</strong> — OAG-Bench benchmark!</span>
+    <span class="news-date">2025.05</span>
+    <span><span class="news-badge badge-pub">Pub</span> One paper accepted by <strong>ACL 2025</strong> — CoE for emotion recognition!</span>
   </li>
   <li>
     <span class="news-date">2024.09</span>
     <span>Started Ph.D. journey at <strong>Sun Yat-sen University</strong>.</span>
+  </li>
+  <li>
+    <span class="news-date">2024.05</span>
+    <span><span class="news-badge badge-pub">Pub</span> One paper accepted by <strong>KDD 2024</strong> — OAG-Bench benchmark!</span>
   </li>
   <li>
     <span class="news-date">2023.07</span>
@@ -346,10 +386,12 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
 
 <div class="research-tags">
   <span class="research-tag">Large Language Models (LLMs)</span>
-  <span class="research-tag">Data Mining</span>
-  <span class="research-tag">Academic Knowledge Graphs</span>
+  <span class="research-tag">Academic Graph Mining</span>
+  <span class="research-tag">Scholarly Knowledge Graphs</span>
+  <span class="research-tag">Author Name Disambiguation</span>
   <span class="research-tag">Anomaly Detection</span>
-  <span class="research-tag">Sentiment Analysis</span>
+  <span class="research-tag">LLM-enhanced Information Extraction &amp; Reasoning</span>
+  <span class="research-tag">Sentiment Analysis &amp; Emotion Recognition</span>
   <span class="research-tag">Graph Neural Networks</span>
 </div>
 
@@ -365,18 +407,66 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
   Full list on <a href="https://scholar.google.com/citations?user=doF4h50AAAAJ&hl=zh-CN&oi=ao" target="_blank">Google Scholar</a>.
 </p>
 
+<div class="pub-year-header">📅 2026</div>
+
+<div class="pub-item">
+  <div class="pub-title">Cross-Source Reasoning-based Correction for Author Name Disambiguation</div>
+  <div class="pub-authors">Fanjin Zhang*, <span class="me">Yunhe Pang</span>*, Bo Chen, Zhiyu Shen, Yanghui Rao, Evgeny Kharlamov, Jie Tang</div>
+  <div class="pub-venue"><span class="venue-badge">KDD 2026</span> ACM SIGKDD Conference on Knowledge Discovery and Data Mining (Applied Data Science Track)</div>
+  <div class="pub-links">
+    <a href="https://doi.org/10.1145/3770855.3818347" target="_blank">Paper</a>
+    <a href="https://arxiv.org/abs/2606.08617" target="_blank">arXiv</a>
+    <a href="https://github.com/zfjsail/CrossND" target="_blank">Code</a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title">HopWeaver: Cross-Document Synthesis of High-Quality and Authentic Multi-Hop Questions</div>
+  <div class="pub-authors">Zhiyu Shen, Jiyuan Liu, <span class="me">Yunhe Pang</span>, Yanghui Rao, Fu Lee Wang, Jianxing Yu</div>
+  <div class="pub-venue"><span class="venue-badge">ACL 2026</span> Annual Meeting of the Association for Computational Linguistics (Main)</div>
+  <div class="pub-links">
+    <a href="https://aclanthology.org/2026.acl-long.1295/" target="_blank">Paper</a>
+    <a href="https://arxiv.org/abs/2505.15087" target="_blank">arXiv</a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title">RPC-Bench: A Fine-grained Benchmark for Research Paper Comprehension</div>
+  <div class="pub-authors">Yelin Chen, Fanjin Zhang, Suping Sun, <span class="me">Yunhe Pang</span>, Yuanchun Wang, Jian Song, Xiaoyan Li, Lei Hou, Shu Zhao, Jie Tang, Juanzi Li</div>
+  <div class="pub-venue"><span class="venue-badge">ACL 2026</span> Annual Meeting of the Association for Computational Linguistics (Main)</div>
+  <div class="pub-links">
+    <a href="https://aclanthology.org/2026.acl-long.1277/" target="_blank">Paper</a>
+  </div>
+</div>
+
 <div class="pub-year-header">📅 2025</div>
+
+<div class="pub-item">
+  <div class="pub-title">CARE: A Disagreement Detection Framework with Concept Alignment and Reasoning Enhancement</div>
+  <div class="pub-authors">Jiyuan Liu, Jielin Song, <span class="me">Yunhe Pang</span>, Zhiyu Shen, Yanghui Rao</div>
+  <div class="pub-venue"><span class="venue-badge">EMNLP 2025</span> Conference on Empirical Methods in Natural Language Processing (Main)</div>
+  <div class="pub-links">
+    <a href="https://aclanthology.org/2025.emnlp-main.671/" target="_blank">Paper</a>
+  </div>
+</div>
 
 <div class="pub-item">
   <div class="pub-title">GuARD: Effective Anomaly Detection through a Text-Rich and Graph-Informed Language Model</div>
   <div class="pub-authors"><span class="me">Yunhe Pang</span>, Bo Chen, Fanjin Zhang, Yanghui Rao, Evgeny Kharlamov, Jie Tang</div>
-  <div class="pub-venue"><span class="venue-badge">KDD 2025</span> ACM SIGKDD Conference on Knowledge Discovery and Data Mining</div>
+  <div class="pub-venue"><span class="venue-badge">KDD 2025</span> ACM SIGKDD Conference on Knowledge Discovery and Data Mining (Research Track)</div>
+  <div class="pub-links">
+    <a href="https://doi.org/10.1145/3711896.3736993" target="_blank">Paper</a>
+    <a href="https://github.com/pangaass/guard" target="_blank">Code</a>
+  </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-title">CoE: A Clue of Emotion Framework for Emotion Recognition in Conversations</div>
   <div class="pub-authors">Zhiyu Shen, <span class="me">Yunhe Pang</span>, Yanghui Rao, Jianxing Yu</div>
-  <div class="pub-venue"><span class="venue-badge">ACL 2025</span> Annual Meeting of the Association for Computational Linguistics</div>
+  <div class="pub-venue"><span class="venue-badge">ACL 2025</span> Annual Meeting of the Association for Computational Linguistics (Main)</div>
+  <div class="pub-links">
+    <a href="https://aclanthology.org/2025.acl-long.1148/" target="_blank">Paper</a>
+  </div>
 </div>
 
 <div class="pub-year-header">📅 2024</div>
@@ -385,6 +475,10 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
   <div class="pub-title">OAG-Bench: A Human-Curated Benchmark for Academic Graph Mining</div>
   <div class="pub-authors">Fanjin Zhang, Shijie Shi, Yifan Zhu, Bo Chen, Yukuo Cen, Jifan Yu, Yelin Chen, Lulu Wang, Qingfei Zhao, Yuqing Cheng, Tianyi Han, Yuwei An, Dan Zhang, Weng Lam Tam, Kun Cao, <span class="me">Yunhe Pang</span>, Xinyu Guan, Huihui Yuan, Jian Song, Xiaoyan Li, Yuxiao Dong, Jie Tang</div>
   <div class="pub-venue"><span class="venue-badge">KDD 2024</span> ACM SIGKDD Conference on Knowledge Discovery and Data Mining</div>
+  <div class="pub-links">
+    <a href="https://doi.org/10.1145/3637528.3672354" target="_blank">Paper</a>
+    <a href="https://github.com/zfjsail/OAG-Bench" target="_blank">Code</a>
+  </div>
 </div>
 
 <div class="pub-year-header">📅 2022</div>
@@ -393,6 +487,9 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
   <div class="pub-title">Learnable Dependency-based Double Graph Structure for Aspect-based Sentiment Analysis</div>
   <div class="pub-authors">Yinglong Ma, <span class="me">Yunhe Pang</span></div>
   <div class="pub-venue"><span class="venue-badge">COLING 2022</span> International Conference on Computational Linguistics</div>
+  <div class="pub-links">
+    <a href="https://aclanthology.org/2022.coling-1.618/" target="_blank">Paper</a>
+  </div>
 </div>
 
 </div>
@@ -436,7 +533,7 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
   <span class="exp-year">2023 – Present</span>
   <div class="exp-detail">
     <h4>Research Intern — <a href="https://www.zhipuai.cn/" target="_blank">Zhipu AI</a></h4>
-    <p>Working on large language models and data mining applications, including academic knowledge graph construction and anomaly detection.</p>
+    <p>Research on academic graph mining and LLM-enhanced data mining for scholarly data quality, including author name disambiguation and anomaly detection (GuARD, KDD 2025; CrossND, KDD 2026), as well as academic knowledge graph construction and benchmarking (OAG-Bench, KDD 2024).</p>
   </div>
 </div>
 
@@ -446,7 +543,10 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
 <div class="section">
 <h2>🤝 Academic Services</h2>
 
-<p>Reviewer for top-tier AI/NLP conferences and journals. <em>(Details to be updated)</em></p>
+<ul>
+  <li><strong>Co-organizer</strong>, KDD Cup 2024 OAG-Challenge — baseline construction for the WhoIsWho (author name disambiguation) track.</li>
+  <li><strong>Reviewer</strong> for AI/NLP conferences and journals.</li>
+</ul>
 
 </div>
 
@@ -466,5 +566,5 @@ Before joining SYSU, I earned my Master's degree (2020–2023) and Bachelor's de
 </div>
 
 <div style="text-align:center; color:#aaa; font-size:0.8em; margin-top:40px;">
-  Last updated: Feb 2026 &nbsp;|&nbsp; Powered by <a href="https://pages.github.com/" style="color:#aaa;">GitHub Pages</a>
+  Last updated: Sep 2026 &nbsp;|&nbsp; Powered by <a href="https://pages.github.com/" style="color:#aaa;">GitHub Pages</a>
 </div>
